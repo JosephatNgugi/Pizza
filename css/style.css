@@ -16,3 +16,18 @@ body{
     background-color: #f7f4f4c5;
     
 }
+.collapse{
+    padding: 0% 20%;
+    font-size: 1.3rem;
+}
+.nav-link{
+    background-color: #c1893fb4;
+    color: #000000;
+    padding: 10%;
+    margin: 0% 3%;
+    border-radius: 15px;
+} 
+.nav-link:hover{
+    background-color: #c1893fe1;
+    color: whitesmoke;
+}
