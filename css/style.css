@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ text-align: center;   
+}
+.landing{
+    background-image: url(../images/Pizza-landing-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.navbar{
+    background-color: #f7f4f4c5;
+    
+}
