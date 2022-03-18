@@ -24,7 +24,7 @@ nav a h3{
     padding: 0% 20%;
     font-size: 1.3rem;
 }
-.nav-link, h2{
+.nav-link, h2, h4{
     color: #FF0000;
     font-weight: bolder;
     padding: 0.5rem;
@@ -76,7 +76,17 @@ h2 img{
 span{
 font-weight: 700;
 }
-
 .row{
     padding: 5% 1%;
+}
+#Menu{
+    background: url(../images/269.jpg);
+    padding: 5%;
+    background-size: cover;
+}
+#Menu h3, #Menu p{
+    color: #FFFFFF;
+}
+.btn{
+    background-color: #FF0000;
 }
