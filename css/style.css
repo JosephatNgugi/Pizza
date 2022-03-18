@@ -55,11 +55,14 @@ padding-bottom: 3%;
     display: flex;
 }
 .about h2{
-    padding: 2%;
+    padding: 12% 2%;
     margin-right: 15%;
 }
+h2 img{
+    filter: invert(10%) sepia(99%) saturate(7275%) hue-rotate(5deg) brightness(106%) contrast(112%);
+}
 .about p{
-    padding: 2% 10%;
+    padding: 15% 10%;
     text-align: left;
 }
 .menu ul{
@@ -74,3 +77,6 @@ span{
 font-weight: 700;
 }
 
+.row{
+    padding: 5% 1%;
+}
