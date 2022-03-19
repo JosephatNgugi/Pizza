@@ -80,6 +80,7 @@ h2 img{
     padding: 15% 10%;
     text-align: left;
 }
+        /* Menu section */
 .menu ul{
     list-style: none;
     display: flex;
@@ -92,7 +93,7 @@ span{
 font-weight: 700;
 }
 .row{
-    padding: 5% 1%;
+    padding: 3% 1%;
 }
 #Menu{
     background: linear-gradient( rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.815) ), url(../images/269.jpg);
@@ -101,9 +102,25 @@ font-weight: 700;
 }
 #Menu h3, #Menu p{
     color: #FFFFFF;
+}        
+select{
+    width: 10vw;
+    padding: 2%;
+    border-radius: 2rem;
+    margin: 1% 0%;
+    align-content: center;
 }
+.box{
+    padding: 3% 2%;
+    border: #FF0000 solid;
+    border-radius: 2rem;
+}
+        /* Cart styling */
 .btn{
     background-color: #FF0000;
+}
+#cart{
+    padding: 35% 0%;
 }
 #cart .point{
     cursor: default;
@@ -127,3 +144,4 @@ font-weight: 700;
 .gap{
     margin: 1%;
 }
+        /* Cart styling */
