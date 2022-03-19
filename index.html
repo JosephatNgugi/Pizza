@@ -37,7 +37,7 @@
                 </ul>
             </div>
             <div class="cart">
-                <a href="cart.html">
+                <a href="#cart">
                     <img src="./icons/shopping-basket.png" alt="Cart">
                     <span class="quantity">0</span>
                 </a>
@@ -57,35 +57,51 @@
     <section id="Menu">
         <div class="container menu">
             <h2>OUR MENU<br> <img src="./icons/pizza.png" width="75" alt=""></h2>
-            
             <div class="row">
-                <h3>CUSTOMERS' FAVOURITE</h3>
-                <p>Here are the most purchased from our Customers.</p>
-                <div class="col">
-                    <img src="./images/pizza-receipe-1.png" alt="">
-                    <h4>Pepperoni Pizza</h4>
-                    <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-secondary">SMALL</button>
-                    <button type="button" class="btn btn-secondary">MEDIUM</button>
-                    <button type="button" class="btn btn-secondary">LARGE</button>
+                <div class="col-8">
+                    <div class="row">
+                        <h3>CUSTOMERS' FAVOURITE</h3>
+                        <p>Here are the most purchased from our Customers.</p>
+                        <div class="col">
+                            <img src="./images/pizza-receipe-1.png" alt="">
+                            <h4>Pepperoni Pizza</h4>
+                            <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-secondary">SMALL</button>
+                            <button type="button" class="btn btn-secondary">MEDIUM</button>
+                            <button type="button" class="btn btn-secondary">LARGE</button>
+                            </div>
+                        </div>
+                        <div class="col">
+                          <img src="./images/pizza-receipe-2.png" alt="">
+                        </div> 
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                          <img src="./images/pizza-receipe-3.png" alt="">
+                        </div>
+                        <div class="col">
+                          <img src="./images/pizza-receipe-4.png" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="col">
-                  <img src="./images/pizza-receipe-2.png" alt="">
-                </div> 
-                <div class="col">
-                  <img src="./images/pizza-receipe-3.png" alt="">
-                </div> 
-            </div>
-            <div class="row">
-                <div class="col">
-                  <img src="./images/pizza-receipe-4.png" alt="">
-                </div>
-                <div class="col">
-                  <img src="./images/pizza-receipe-5.png" alt="">
-                </div>
-                <div class="col">
-                  <img src="./images/pizza-receipe-6.png" alt="">
+                <div class="col-4">
+                    <div class="row" id="cart">
+                        <div class="col">
+                            <h3 class="btn point">ITEM</h3><br>
+                            <p class="cartItem point">Gluten-free pizza with mushroom</p>
+                        </div>
+                        <div class="col">
+                            <h3 class="btn point">PRICE</h3><br>
+                            <p class="cartPrice point">KES <span>2,320</span></p>
+                        </div>
+                        <div class="col">
+                            <h3 class="btn point">QUANTITY</h3><br>
+                            <input class="cartInput" type="number" value="1">
+                            <button class="btn" type="button">REMOVE</button>
+                        </div>
+                            <button class="btn gap" type="button">Remove All Items</button>
+                            <button class="btn gap btn-success" type="button">Proceed to Checkout</button>
+                    </div>
                 </div>
             </div>
             <p>

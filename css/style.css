@@ -15,7 +15,6 @@ body{
 .navbar{
     background-color: #000000;
     padding: 0% 10%;
-    
 }
 nav a h3{
     color: #FF0000;
@@ -34,6 +33,22 @@ nav a h3{
 .nav-link:hover{
     background-color: #EEEEEE;
     color: #000000;
+}
+.cart{
+    position: relative;
+}
+.cart span{
+    position: absolute;
+    right: 0;
+}
+.cart img{
+    filter: invert(10%) sepia(99%) saturate(7275%) hue-rotate(5deg) brightness(106%) contrast(112%);
+    width: 2rem;
+}
+.cart a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.5rem;
 }
 .hero{
     padding: 10% 30% 13% 30%;
@@ -80,8 +95,8 @@ font-weight: 700;
     padding: 5% 1%;
 }
 #Menu{
-    background: url(../images/269.jpg);
-    padding: 5%;
+    background: linear-gradient( rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.815) ), url(../images/269.jpg);
+    padding: 5% 0%;
     background-size: cover;
 }
 #Menu h3, #Menu p{
@@ -89,4 +104,26 @@ font-weight: 700;
 }
 .btn{
     background-color: #FF0000;
+}
+#cart .point{
+    cursor: default;
+}
+.cartInput{
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #FF0000;
+    background-color: #eee;
+    text-align: center;
+    font-size: 1.2rem;
+    /* margin-right: 25px; */
+}
+.point{
+    width: 120%;
+}
+.cartPrice{
+    padding: 20%;
+}
+.gap{
+    margin: 1%;
 }
