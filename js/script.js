@@ -79,19 +79,18 @@ function addToCartClicked(event){
 
 function updateCart(pizzaType, pizzaPrice){
     var cart = document.createElement("div");
+    cart.classList.add("row")
     var cartItems = document.getElementById("cart");
     cartContents = `<div class="col">
-                    <h3 class="btn point">ITEM</h3><br>
-                    <p class="cartItem point">Gluten-free pizza with mushroom</p>
+                    <p class="cartItem point">${pizzaType}</p>
                     </div>
                     <div class="col">
-                    <h3 class="btn point">PRICE</h3><br>
                     <p class="cartPrice point">KES <span>2,320</span></p>
                     </div>
                     <div class="col">
-                    <h3 class="btn point">QUANTITY</h3><br>
-                    <input class="cartInput" type="number" value="1">
+                    <input class="cartInput" type="number${pizzaPrice}" value="1">
                     <button class="btn" type="button">REMOVE</button>
                     </div>`
+    cart.innerHTML = cartContents
     cartItems.append(cart)
 }
